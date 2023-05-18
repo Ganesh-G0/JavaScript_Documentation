@@ -36,10 +36,14 @@ body {
     padding: 10px 5px;
 }
 
+#navbar > a:visited {
+    color: #818181;
+}
+
 #navbar > a:hover {
     color: #f1f1f1;
 }
-  
+
 header {
     font-size: 35px;
     font-weight: bolder;
