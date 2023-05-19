@@ -1,87 +1,64 @@
 body {
     font-family: 'Times New Roman', Times, serif, sans-serif;
-    font-size: large;
+    font-size: x-large;
 }
 
 #main-doc {
-    margin-left: 180px;
-    font-size: 25px;
+    margin-left: 300px;
     padding: 0 10px;
 }
 
 #navbar {
-    height: 100%;
-    width: 180px;
-    position: fixed;
-    z-index: 1;
     top: 0;
     left: 0;
+    z-index: 1;
+    width: 280px;
+    height: 100%;
+    position: fixed;
     background-color: #402258;
     overflow-x: hidden;
-    padding-top: 20px;
-    padding-left: 5px;
 }
 
-#navbar > header {
+#navbar > h4 {
+    padding: 0px 5px;
     color: white;
 }
 
 #navbar > a:link {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 20px;
-    color: #818181;
+    color: black;
     display: block;
-    border-bottom: 2px solid black ;
+    font-size: x-large;
     padding: 10px 5px;
+    text-decoration: none;
+    border-bottom: 2px solid black ;
 }
 
 #navbar > a:visited {
-    color: #818181;
+    color: black;
 }
 
 #navbar > a:hover {
     color: #f1f1f1;
-}
+    border-bottom: 2px solid white ;
 
-header {
-    font-size: 35px;
-    font-weight: bolder;
 }
-
 .main-section {
-    margin: 25px 5px 0 25px;
-    padding: 5px 5px;
-}
-
-
-#navbar > header {
-    font-size: 25px;
+    margin: 0px 5px  25px 5px;
 }
 
 code {
-    font-size: x-large;
-    padding: 5px 0;
-    background-color: blueviolet;
     color: white;
+    padding: 5px 0;
+    font-size: x-large;
+    background-color: blueviolet;
 }
 
 #Reference > a {
     text-decoration: none;
-}
-
-p {
-    padding: 1px 0;
+    color: steelblue;
 }
 
 li {
     padding: 10px 0;
-}
-
-@media (orientation-portrait)
-{
-    body {
-        font-size: large;
-    }
 }
 
