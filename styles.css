@@ -1,0 +1,64 @@
+#navbar {
+    top : 0;
+    left : 0;
+    z-index : 10;
+    width : 10.4rem;
+    height : 100%;
+    position : fixed;
+    padding : 0.3rem;
+    overflow-x : hidden;
+    background-color : #402258;
+    }
+    .navbar-header {
+    color : whitesmoke;
+    }
+    .navbar {
+    border-right : solid black;
+    }
+    .nav-item > a:link {
+    color : black;
+    border-top : 2px solid black;
+    padding : 10px 5px;
+    }
+    .nav-item > a:visited {
+    color : gray;
+    }
+    .nav-item > a:hover {
+    color : whitesmoke;
+    }
+    #main-doc {
+    margin-left : 10.4rem;
+    padding : 0 0.5rem;
+    font-size : 1.2rem;
+    }
+    .main-section {
+    margin : 25px 5px 0 25px;
+    }
+    section > h2 {
+    font-size : 2rem;
+    font-weight : bolder;
+    }
+    p > code {
+    font-size : larger;
+    color : white;
+    padding : 5px;
+    background-color : blueviolet;
+    }
+    @media (max-height: 320px) {
+    #navbar {
+    top : 0;
+    left : 0;
+    z-index : 10;
+    width : 120px;
+    height : 100%;
+    position : fixed;
+    padding : 0.3rem;
+    overflow-x : hidden;
+    background-color : #402258;
+    }
+    #main-doc {
+    margin-left : 100px;
+    padding : 0 0.5rem;
+    font-size : 1.2rem;
+    }
+    }
